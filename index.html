@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;700&display=swap" rel="stylesheet"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@500&family=Hanken+Grotesk:wght@200;300;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Athena: online courses</title>
     <link rel="icon" type="images/x-icon" href="./icons/Favicon.ico.svg" />
 </head>
@@ -15,26 +18,26 @@
     <header>
         <a href="#"><img class="logo" src="./icons/logo1.svg" alt="logo"></a>
         <nav>
-            <ul>
+            <ul class="nav">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Product</a></li>
                 <li><a href="#">Pricing</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
-        <snap>
+        <span class="login">
             <a href="#">Login</a>
-        </snap>
-        <button>Join Us</button>
+        </span>
+        <button class="yellow-btn join-us">Join Us <img class="login-arrow" src="./icons/small-arrow.svg" alt="arrow"></button>
     </header>
     <main>
         <section class="promo">
-            <p>Welcome</p>
+            <p class="promo-h">Welcome</p>
             <h1>Sell On The Web<br>Like A Pro</h1>
-            <p>We know how large objects will act, 
+            <p class="promo-p">We know how large objects will act, 
                 but things on a small scale</p>
-            <button>Start Now</button>
-            <button>Learn More</button>
+            <button class="yellow-btn promo-btn">Start Now</button>
+            <button class="learnmore-btn">Learn More</button>
             <img src="./img/rectangle-small.svg" alt="small yellow rectangle">
             <img src="./img/rectangle-medium.svg" alt="medium rectangle yellow">
             <img src="./img/rectangle-large.svg" alt="large yellow rectangle">

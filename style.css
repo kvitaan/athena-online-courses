@@ -1,12 +1,89 @@
 .logo {
     margin: 0;
     padding: 0;
-    width: 400px;
-    /* height: 200px; */
+    height: 40px;
 }
 
 
 body {
-    font-family: 'Golos Text', sans-serif;
-    font-family: 'Hanken Grotesk', sans-serif;                                              
+    /* font-family: 'Hanken Grotesk', sans-serif;*/
+    font-family: 'Darker Grotesque', sans-serif;
+    margin: 28px 200px 0 200px;
+}
+
+a {
+    color: #184C99;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #184C99;
+}
+
+.nav {
+    color: #184C99;
+    list-style-type: none;
+    font-weight: 700;
+}
+
+.login {
+    color: #184C99;
+    font-weight: 700;
+}
+
+.yellow-btn {
+    background-color: #FBB52F;
+    border-radius: 5px;
+    border-color: transparent;
+    color: #ffffff;
+}
+
+.join-us {
+    font-weight: 700;
+    text-transform: uppercase;
+    height: 40px;
+    width: 120px;
+}
+
+.login-arrow {
+    margin: 0 0 0 8px;
+    padding: 0;
+}
+
+/* promo */
+.promo {
+    background-color: #184C99;
+}
+.promo-h, h1 {
+    color: white;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 70px;
+    line-height: 58px;
+}
+
+.promo-p {
+    font-size: 30px;
+    color: #ffffff;
+    width: 400px;
+}
+
+.learnmore-btn {
+    background-color:#184C99;
+    border-color:#FBB52F;
+    color:#FBB52F;
+    border-width: 1px;
+
+}
+
+.promo-btn, .learnmore-btn {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    height: 50px;
+    width: 190px;
+    border-radius: 5px;
+    letter-spacing: 0.6px;
 }
