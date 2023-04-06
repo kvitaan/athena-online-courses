@@ -20,9 +20,12 @@ a:visited {
     color: #184C99;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .nav {
     color: #184C99;
-    list-style-type: none;
     font-weight: 700;
 }
 
@@ -53,10 +56,14 @@ a:visited {
 /* promo */
 .promo {
     background-color: #184C99;
+    margin: 28px -200px 0 -200px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 .promo-h, h1 {
     color: white;
     font-weight: 700;
+    margin-left: 200px;
 }
 
 h1 {
@@ -68,6 +75,7 @@ h1 {
     font-size: 30px;
     color: #ffffff;
     width: 400px;
+    margin: 0 0 0 200px;
 }
 
 .learnmore-btn {
@@ -75,7 +83,10 @@ h1 {
     border-color:#FBB52F;
     color:#FBB52F;
     border-width: 1px;
+}
 
+.promo-btn {
+    margin: 0 0 0 200px;
 }
 
 .promo-btn, .learnmore-btn {
@@ -86,4 +97,72 @@ h1 {
     width: 190px;
     border-radius: 5px;
     letter-spacing: 0.6px;
+    margin-top: 35px;
+}
+.promo-picture {
+    width: 100px;
+}
+
+/* pros */
+.card {
+    padding: 35px 40px;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    width: 260px;
+}
+
+h3 {
+    color: black;
+    margin: 16px 0 0 0 ;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.pros-p {
+    color: black;
+    width: 200px;
+    margin: 8px 0 0 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+/* features */
+.features-desc {
+    margin: 200px 0 200px 0;
+}
+
+.features-desc > img {
+    width: 200px;
+    /* margin: -100px 0 0 0; */
+}
+
+.features-desc > h2 {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 35px 0;
+}
+
+.features-desc > p {
+     width: 360px;
+     font-size: 20px;
+     margin-top: -5px;
+}
+
+.bold-blue-line {
+    width: 94px;
+    height: 8px;
+    margin: 0 -5px 0 -50px;
+}
+
+.features-desc > a {
+    color: #23A6F0;
+    font-weight: 700;
+    font-size: 20px;
+}
+.features-desc > a:hover {
+    color: #23A6F0;
+}
+
+.blue-arrow {
+    height: 14px;
+    margin-left: 4px;
 }
