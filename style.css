@@ -166,3 +166,122 @@ h3 {
     height: 14px;
     margin-left: 4px;
 }
+
+/* courses */
+.advice-p {
+    color:#23A6F0;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0 0 -8px 0;
+}
+
+.advice h2+p {
+    margin: -8px 0 10px 0;
+    font-size: 20px;
+}
+
+.advice h2 {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+}
+
+.courses-example img[alt^="promo"] {
+    height: 280px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.courses-example h3 {
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.courses-example img+p {
+    color: #23A6F0;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+}
+
+.courses-example h3+p {
+    margin: 5px 0 0 0;
+    font-size: 18px;
+    color: black;
+}
+
+.sales {
+    color: #737373;
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+.courses-example img[alt="download"] {
+    margin-left: -40px;
+}
+
+.courses-example figure+span {
+    font-size: 20px;
+    font-weight: 700;
+    color: #40BB15;
+}
+
+.old-price {
+    color: #BDBDBD;
+    text-decoration: line-through;
+}
+
+.courses-example div > figure {
+    color: black;
+    margin-left: 0;
+}
+
+.courses-example button {
+    background-color: white;
+    color: #23A6F0;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    border-width: 1px;
+    border-color: #23A6F0;
+    border-radius:40px;
+    width: 140px;
+    height: 40px;
+    margin: 10px 0 0 0;
+}
+
+.courses-example button > img {
+    margin-left: 5px;
+}
+
+/* rewiew list */
+
+.rewiews {
+    background-color: #252B42;
+    margin: 100px -200px;
+}
+
+.rewiews-p {
+    color: #23A6F0;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 140px 0 0 200px;
+}
+
+.rewiews h2 {
+    color: #ffffff;
+    padding-left: 198px;
+    margin-top: -20px;
+}
+
+.rewiews h2+p {
+    color: #ffffff;
+    margin-top: 10px;
+    padding-left: 200PX;
+    font-size: 20px;
+}
+
+.clients {
+    color: #ffffff;
+}
