@@ -329,3 +329,58 @@ h3 {
     margin: 25px 0 30px 0;
 }
 
+.join-us-sect {
+    height: 600px;
+}
+
+.join-us-text > .rewiews-p {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+}
+
+
+.join-us-text h2 {
+    font-weight: 900;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+
+.join-us-text h2+p {
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 10px 0 80px 0;
+}
+
+.join-us-sect input {
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px 0 0 5px;
+    width: 680px;
+    height: 58px;
+    color: #737373;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 170%;
+    padding-left: 30px;
+}
+
+.join-us-sect button {
+    background: #23A6F0;
+    border: 1px solid #E6E6E6;
+    border-radius: 0px 5px 5px 0px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    padding: 14px 22px;
+}
+
